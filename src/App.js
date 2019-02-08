@@ -169,7 +169,7 @@ class App extends Component {
 
               <br/>
 
-              <div className="subheading mb-3">DevTools</div>
+              <div className="subheading mb-3">DevTools...</div>
               <ul className="list-inline dev-icons">
                 <li className="list-inline-item">
                   <i className="fab fa-git"></i>
