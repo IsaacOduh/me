@@ -46,7 +46,7 @@ class App extends Component {
                   <a href="https://www.linkedin.com/in/isaac-oduh-50122188/">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
-                  <a href="https://www.github.com/IsaacOduh/">
+                  <a href="https://www.github.com/isaacoduh/">
                     <i className="fab fa-github"></i>
                   </a>
                   <a href="https://www.twitter.com/isaacoduh/">
@@ -57,6 +57,147 @@ class App extends Component {
           </section>
 
           <hr className="m-0"/>
+
+          <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+            <div className="w-100">
+              <h2 className="mb-5">Experience</h2>
+
+              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="resume-content">
+                  <h3 className="mb-0">Software Developer </h3>
+                  <div className="subheading mb-3">Freelance </div>
+                  <p>Designed and built varied degrees of fullstack applications for clients.</p>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">September 2016 </span>
+                </div>
+              </div>
+
+              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="resume-content">
+                  <h3 className="mb-0">Software Developer - Intern </h3>
+                  <div className="subheading mb-3">Pear SDC </div>
+                  <p>Worked under the supervision of Senior developers in developing a variety of software products. Also had to wear the fullstack hat.</p>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">June 2017 - August 2017</span>
+                </div>
+              </div>
+
+              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="resume-content">
+                  <h3 className="mb-0">Software Engineer </h3>
+                  <div className="subheading mb-3">Orishirishi.org </div>
+                  <p> Designed and Developed the platform for the Startup.</p>
+                  <p> Developed in-house software for strategic business activities including a Customer Relations Management platform for customer interactions.</p>
+                  <p> Served as C.T.O which involved technical and managerial roles. Interfaced between software team and board members in breaking down expectations.</p>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">April 2016 - September 2016</span>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <hr className="m-0"/>
+
+          <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+            <div className="w-100">
+              <h2 className="mb-5">Education</h2>
+
+                <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div className="resume-content">
+                    <h3 className="mb-0">Covenant University</h3>
+                    <div className="subheading mb-3">Masters of Engineering</div>
+                    <div>Computer Engineering - (Software Engineering and Cloud Computing)</div>
+                  </div>
+                  <div className="resume-date text-md-right">
+                    <span className="text-primary">2016 - 2018</span>
+                  </div>
+                </div>
+
+              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div className="resume-content">
+                    <h3 className="mb-0">Covenant University</h3>
+                    <div className="subheading mb-3">Bachelor of Engineering</div>
+                    <div>Computer Engineering</div>
+                  </div>
+                  <div className="resume-date text-md-right">
+                    <span className="text-primary">September 2009 - May 2014</span>
+                  </div>
+                </div>
+
+            </div>
+          </section>
+
+          <hr className="m-0"/>
+
+          <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+            <div className="w-100">
+              <h2 className="mb-5">Skills</h2>
+              <div className="subheading mb-3">Programming Languages</div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fab fa-python"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-js"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-php"></i>
+                </li>
+              </ul>
+
+              <br/>
+
+            <div className="subheading mb-3">Fullstack Competencies - (Frontend &amp; Backend)</div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fab fa-node"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-laravel"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-react"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-vuejs"></i>
+                </li>
+              </ul>
+
+              <br/>
+
+              <div className="subheading mb-3">DevTools</div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fab fa-git"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-linux"></i>
+                </li>
+              </ul>
+
+              <br/>
+
+              <div class="subheading mb-3">Other Competencies</div>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Data Science - Pandas, Matplotlib</li>
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Testing - Unit &amp; Integration</li>
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Progressive Web Apps </li>
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Databases - MySql, Postgres, MongoDB </li>
+              </ul>
+            </div>
+          </section>
         </div>
       </div>
     );
